@@ -1,0 +1,23 @@
+DB Planning
+
+Brainstorming
+  -pets will be different varieties of animals
+  -these animals will be different species
+  -animals will have different behaviors owners need to be notified of
+  -owners/adopters will get different animals
+  
+ Table
+    animals: holds info about the animal, each row is an invidual animal
+    breed: holds info about the breed, each row is individual breed
+    behavior: holds info about the behavior, each row is an individual behavior
+    adopter: holds info about the animal, each row is an individual adopter
+  
+  Relationships:
+    One to one  
+      
+    One to many
+      animals to adopters: an animal can have one main adopter but the adopter can adopt more than one animal
+      
+    Many to many
+      animals to behavior: an animal can have a multitude of behaviors, and behaviors can be exhibited in multiple animals
+      animals to breed: an animal can have many breeds (dog can be mixed shih tzu and poodle) and a breed can be found in multiple animals
